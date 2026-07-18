@@ -1,0 +1,12 @@
+services:
+  sync-backend:
+    build: .
+    container_name: tubewell-sync-backend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - DATABASE_PATH=/usr/src/app/data/db.json
+    volumes:
+      - ./data:/usr/src/app/data

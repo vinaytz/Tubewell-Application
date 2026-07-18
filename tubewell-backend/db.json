@@ -1,0 +1,84 @@
+{
+  "clients": [
+    {
+      "_id": "client-1",
+      "name": "Rajesh Kumar",
+      "phone": "9876543210",
+      "createdAt": "2026-06-04T15:18:38.806Z",
+      "updatedAt": "2026-06-04T15:18:38.806Z"
+    },
+    {
+      "_id": "client-2",
+      "name": "Amit Singh",
+      "phone": "8765432109",
+      "createdAt": "2026-06-09T15:18:38.806Z",
+      "updatedAt": "2026-06-09T15:18:38.806Z"
+    },
+    {
+      "_id": "client-3",
+      "name": "Harpreet Singh",
+      "phone": "7654321098",
+      "createdAt": "2026-06-14T15:18:38.806Z",
+      "updatedAt": "2026-06-14T15:18:38.806Z"
+    },
+    {
+      "_id": "client-4",
+      "name": "Suresh Patel",
+      "phone": "6543210987",
+      "createdAt": "2026-06-19T15:18:38.806Z",
+      "updatedAt": "2026-06-19T15:18:38.806Z"
+    }
+  ],
+  "records": [
+    {
+      "_id": "rec-1",
+      "clientId": "client-1",
+      "cropName": "Wheat",
+      "date": "2026-06-29",
+      "startTime": "08:00",
+      "stopTime": "11:30",
+      "durationHours": 3.5,
+      "ratePerHour": 150,
+      "totalAmount": 525,
+      "amountPaid": 200,
+      "status": "unpaid",
+      "createdAt": "2026-06-29T15:18:38.806Z",
+      "updatedAt": "2026-06-29T15:18:38.806Z"
+    },
+    {
+      "_id": "rec-2",
+      "clientId": "client-2",
+      "cropName": "Rice",
+      "date": "2026-06-30",
+      "startTime": "13:00",
+      "stopTime": "18:00",
+      "durationHours": 5,
+      "ratePerHour": 150,
+      "totalAmount": 750,
+      "amountPaid": 750,
+      "status": "paid",
+      "createdAt": "2026-06-30T15:18:38.806Z",
+      "updatedAt": "2026-06-30T15:18:38.806Z"
+    },
+    {
+      "_id": "rec-3",
+      "clientId": "client-3",
+      "cropName": "Sugar cane",
+      "date": "2026-07-02",
+      "startTime": "06:00",
+      "stopTime": "14:00",
+      "durationHours": 8,
+      "ratePerHour": 150,
+      "totalAmount": 1200,
+      "amountPaid": 0,
+      "status": "unpaid",
+      "createdAt": "2026-07-02T15:18:38.806Z",
+      "updatedAt": "2026-07-02T15:18:38.806Z"
+    }
+  ],
+  "activeSessions": [],
+  "settings": {
+    "rupeePerHour": 150,
+    "updatedAt": "2026-07-04T15:18:38.806Z"
+  }
+}
